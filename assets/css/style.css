@@ -7,7 +7,7 @@
     --color-base2: #e0e0e0; /* Light gray */
     --color-brand: #5a67d8; /* Soft blue */
     --color-brand2: #434190; /* Darker soft blue */
-    --sidbar-width: 240px;
+    --sidbar-width: 300px;
     --font-base: "Bai Jamjuree";
 }
     
@@ -93,7 +93,7 @@ img {
     color: var(--color-brand);
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
     .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
